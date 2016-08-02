@@ -1,3 +1,18 @@
+/******************************************
+ * Snake game for Arduino Uno and Adafruit 2,8" touch screen for Arduino
+ * 
+ * Written by Arnau/mas886/RedRedNose
+ * Webpage: http://redrednose.xyz/
+ * 
+ * MIT license, all text above must be included in any redistribution
+ * 
+ * Adafruit libraries used:
+ *  Adafruit_ILI9341(Screen controller library): https://github.com/adafruit/Adafruit_ILI9341
+ *  Adafruit-GFX-Library(Graphics Library): https://github.com/adafruit/Adafruit-GFX-Library
+ *  Adafruit_STMPE610(Touchscreen): https://github.com/adafruit/Adafruit_STMPE610
+ *  
+ ******************************************/
+ 
 #include <Adafruit_GFX.h>    // Core graphics library
 #include <SPI.h>
 #include <Wire.h>      // this is needed even tho we aren't using it
